@@ -11,7 +11,7 @@ import { useScaffoldContract } from "~~/hooks/scaffold-eth";
 function Page() {
   const params = useParams();
 
-  const poolAddress: string = params.id;
+  // const poolAddress: string = params.id;
   const handleGoBack = () => {
     window.history.back();
   };
